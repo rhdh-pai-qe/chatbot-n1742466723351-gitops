@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    app.kubernetes.io/instance: chatbot-n1742466723351-database
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/name: chatbot-n1742466723351-database
+  name: chatbot-n1742466723351-database
+spec:
+  ports:
+    - port: 
+      protocol: TCP
+      targetPort: 
+  selector:
+    app.kubernetes.io/instance: chatbot-n1742466723351-database
